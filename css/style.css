@@ -220,13 +220,13 @@ margin-right: 0px;
     background-image: url(../image/photo-secondary/occupation-group.svg);
 }
 .ability-item:nth-child(2)::before {
-    background-image: url(image/photo-secondary/occupation-clock.svg);
+    background-image: url(../image/photo-secondary/occupation-clock.svg);
 }
 .ability-item:nth-child(3)::before {
-    background-image: url(image/photo-secondary/occupation-diagram.svg);
+    background-image: url(../image/photo-secondary/occupation-diagram.svg);
 }
 .ability-item:nth-child(4)::before {
-    background-image: url(image/photo-secondary/occupation--astronaut.svg);
+    background-image: url(../image/photo-secondary/occupation--astronaut.svg);
 }
 .ability-text {
     line-height: 1.71;
