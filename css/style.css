@@ -217,7 +217,7 @@ margin-right: 0px;
     background-position: center;
 }
 .ability-item:nth-child(1)::before {
-    background-image: url(image/photo-secondary/occupation-group.svg);
+    background-image: url(../image/photo-secondary/occupation-group.svg);
 }
 .ability-item:nth-child(2)::before {
     background-image: url(image/photo-secondary/occupation-clock.svg);
