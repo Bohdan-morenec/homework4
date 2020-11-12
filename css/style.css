@@ -175,6 +175,9 @@ margin-right: 0px;
     line-height: 1.87;
     color: var(--white--color);
 }
+.ability-list-section {
+    padding-top: 94px;
+}
 .ability-heading {
     color: var(--secondary--text--color);
     line-height: 0.875;
@@ -191,7 +194,6 @@ margin-right: 0px;
     flex-wrap: wrap;
 }
 .ability-item {
-    margin-top: 95px;
     margin-left: 30px; 
 }
 .ability-text {
@@ -215,16 +217,16 @@ margin-right: 0px;
     background-position: center;
 }
 .ability-item:nth-child(1)::before {
-    background-image: url(/image/photo-secondary/occupation-group.svg);
+    background-image: url(image/photo-secondary/occupation-group.svg);
 }
 .ability-item:nth-child(2)::before {
-    background-image: url(/image/photo-secondary/occupation-clock.svg);
+    background-image: url(image/photo-secondary/occupation-clock.svg);
 }
 .ability-item:nth-child(3)::before {
-    background-image: url(/image/photo-secondary/occupation-diagram.svg);
+    background-image: url(image/photo-secondary/occupation-diagram.svg);
 }
 .ability-item:nth-child(4)::before {
-    background-image: url(/image/photo-secondary/occupation--astronaut.svg);
+    background-image: url(image/photo-secondary/occupation--astronaut.svg);
 }
 .ability-text {
     line-height: 1.71;

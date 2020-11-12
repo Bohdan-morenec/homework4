@@ -109,6 +109,30 @@ margin-right: 0px;
 }
 .address-header {
     font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.address-header:hover .envelope-svg {
+    fill: #2196F3;
+}
+.address-header:hover .address-header-svg {
+    fill: #2196F3;
+}
+
+.address-header-svg {
+    height: 16px;
+    width: 10px;
+    margin-right:10px;
+    align-items: center;
+    fill: var(--main--text--color);
+}
+.envelope-svg{
+    height: 12px;
+    width: 16px;
+    margin-right: 10px;
+    fill: var(--main--text--color);
+}
+.address-header {
+    font-weight: 500;
     /* line-height:; */
     letter-spacing: 0.02em;
 }
