@@ -44,7 +44,7 @@
           <div class="container">
             <div class="hero-center">
               <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
-              <button class="hero-button hero-but-text">Заказать услугу</button>
+              <button class="hero-button hero-but-text" data-modal-open>Заказать услугу</button>
             </div>
           </div>
         </section>
@@ -76,12 +76,15 @@
           <ul class="image">
             <li class="our-image">
               <img src="image/photo/img.jpg" width="370" height="294" alt="Програмирование">
+            <div class="our-absolute-text"><p class="our-text">Десктопные приложения</p></div>
             </li>
             <li class="our-image">
               <img src="image/photo/img-1.jpg" width="370" height="294" alt="разработка мобильных приложений">
+              <div class="our-absolute-text"><p class="our-text">Десктопные приложения</p></div>
             </li>
             <li class="our-image">
               <img src="image/photo/img-2.jpg" width="370" height="294" alt="Дизайн">
+              <div class="our-absolute-text"><p class="our-text">Десктопные приложения</p></div>
             </li>
           </ul>
           </div>
@@ -344,5 +347,11 @@
       </div>
     </div>  
     </footer>
+    <div class="beckdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn-close" data-modal-close>X</button>
+      </div>
+    </div>
+      <script src="/js/modal.js"></script>
   </body>
 </html>
